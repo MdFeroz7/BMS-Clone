@@ -1,0 +1,360 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+select
+{
+    border: 0px;
+}
+body
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px;
+    /* font-weight: 500 ; */
+    animation: covers 3s infinite linear;
+}
+
+@keyframes covers
+{
+   100%
+   {
+    background-image: url(bms.jpg);
+   }
+  
+}
+hr
+{
+    opacity: 0.4;
+}
+
+#nav1
+{
+    
+    margin-bottom: 10px;
+    height: 50px;
+    padding-top: 10px;
+    
+}
+
+.logo
+{
+    height: 40px;
+    width: 100px;
+    margin-left: 140px;
+    float: left;
+    mix-blend-mode: color-burn;
+}
+
+#yo
+{
+   
+    margin-left: 10px;
+    border: 1px solid hsla(0, 0%, 50%, 0.2);
+    padding: 10px;
+    padding-right: 130px;
+
+}
+#loc
+{
+    margin-left: 170px;
+}
+
+#sign
+{
+    margin-left: 60px;
+    background-color: red;
+    color: aliceblue;
+    border-radius: 5px;
+    width: 55px;
+    height: 25px;
+}
+
+.container
+{
+    height: 600vh;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+#header
+{
+    margin-top: 5px;
+    display: inline ;
+    
+    
+}
+.logo
+{
+    width: 10%;
+    mix-blend-mode: color-burn;
+
+}
+
+
+#dash
+
+{
+    display:inline-block;
+    border: 0.5px solid;
+    width: 10px;
+    line-height: 30%;
+    font-weight: 900;
+    font-size: 20px;
+
+}
+
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#last
+{
+    margin-left: 530px ;
+   
+}
+
+.n1
+{
+    font-size: 14px;
+}
+
+#nav2
+{
+    margin-bottom: 15px;
+}
+
+
+#nav2
+{
+    word-spacing:15px ;
+}
+/* 
+#slide
+{
+    height: 300px;
+}
+#slide-images
+{
+    height: 600px;
+} */
+/* #slide
+{
+    text-align: center;
+    height: 300px;
+    width: 90vh;
+    animation: slides 6s infinite step-end ;
+    margin-left: 13em;
+    background-repeat: no-repeat;
+} */
+/* 
+@keyframes slides
+{
+    0%
+    {   
+        transform: translateX(130px);
+        background-image: url(3.jpeg.jpg);
+    }
+
+    25%
+    {
+        transform: translateX(90px);
+
+        background-image: url(luffy.jpeg.jpg);
+    }
+
+    50%
+    {
+         
+        transform: translateX(50px); 
+
+        background-image: url(sl.jpeg.jpg);
+    }
+
+    75%
+    {
+        transform: translateX(0px);
+
+        background-image: url(All.jpeg.jpg);
+    }
+
+    100%
+    {
+        transform: translateX(130px);
+        background-image: url(3.jpeg.jpg);
+    }
+} */
+
+.button
+{
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: dimgray;
+    color: aliceblue;
+    display: flex;
+    
+}
+
+#right
+{
+    margin-left: 40em;
+    text-align: center;
+}
+
+.mvs
+{
+    height: 400px;
+    width: 210px;
+    background-size: cover;
+}
+
+#movies
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+#attack, #naruto, #juju, #tokyo, #note
+{
+    padding-left: 15px;
+}
+
+
+img.hover
+{
+    
+}
+#nav4 img
+{
+    border-radius: 10px;
+}
+
+.black
+{
+    background-color: black;
+    color: aliceblue;
+    width: 210px;
+   
+}
+.name
+{
+    font-weight: 600;
+    font-size: 20px;
+ 
+}
+
+.genre
+{
+    opacity: 0.8;
+}
+
+
+#footer
+{
+    background-color: darkgray;
+    width:100%;
+    height: 200px;
+
+}
+
+#foot
+{
+    margin-left: 40%;
+    
+    
+}
+
+.last
+{
+    margin-left: 35%;
+}
+
+p{
+    text-align: center;
+}
+
+
+input
+{
+    border: 0px;
+    width: 400px;
+    margin-left: 25px;
+}
+
+#Premieres
+{
+    background-color: rgba(28, 14, 60, 0.895);
+    color: white;
+    padding: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@keyframes loading
+{   
+    0%
+    {
+        border: 0;
+        color: transparent;
+    }
+
+    100%
+    {
+        rotate: 360deg;
+    }
+
+   
+} */
+
+
+/* 
+#loader
+{
+    border: 8px solid ;
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    border: 8px solid #dddd;
+    border-radius: 50%;
+    border-top: 8px solid black;
+    animation: loading 1s  3 linear;
+   
+} */
